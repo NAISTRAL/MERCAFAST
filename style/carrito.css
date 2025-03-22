@@ -1,0 +1,148 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+.menuContainer {
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 2; /* el que tenga el valor mas alto se va a mostrar encima del menor*/
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 64px;
+    box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.46);
+}
+
+.objetos{
+    list-style: none;
+    display: flex;
+}
+
+.objetos > li > a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+
+}
+
+.menu > li > a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+   
+}
+
+.menuList {
+    /* margin-top: 0; */
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.menuList > li > a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 25px;
+    padding-top: 34px;
+}
+
+
+.logoContainer {
+    margin-left: 15px;
+    width: 40px; 
+}
+
+.logo {
+    max-width: 150%; 
+    height: auto; 
+}
+
+
+.cartaText, .botone {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.cartaText h2{
+    /* font-size: 25px; */
+    color: #c7a021;
+}
+
+.flex-tar{
+    margin-left: 30%;
+}
+.metodo-pago{
+    width: 40%;
+    height: 280px;
+    border: solid 2px #c7a021;
+    margin-left: 30%;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    
+}
+
+.visa, .master{
+    padding: 5px;
+    margin: 2% 0% 2% 2%;
+    background-color: rgba(137, 43, 226, 0);
+    width: 25%;
+display: flex;
+border: solid 1px #c7a021;
+border-radius: 20px;
+}
+
+.visa-master{
+    width: 40px;
+}
+
+.mb-3{
+    margin-left: 10%;
+}
+
+.from-2{
+    width: 100%;
+}
+
+.form-control{
+    width: 100%; 
+}
+
+.flex-formu{
+    display: flex;
+    background-color: rgba(128, 255, 0, 0);
+}
+
+.mm{
+    margin-left: 18%;
+}
+
+
+.UserSesion> h5{
+    font-size: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

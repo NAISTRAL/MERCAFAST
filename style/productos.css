@@ -1,0 +1,22 @@
+.UserSesion> h5{
+    font-size: 50px;
+}
+
+.NoProduct >h5{
+    font-size: 30px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+footer {
+    margin-top: auto;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
